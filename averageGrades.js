@@ -1,31 +1,31 @@
-// Mini-proyecto Programa Promedio de 3 Notas
+// Mini-project: Program to calculate the average of 3 grades
 
-// Definir las notas
+// Define the notes
 
-let nota1 = 4.2;
-let nota2 = 1.0;
-let nota3 = 3.5;
+let grade1 = 4.2;
+let grade2 = 1.0;
+let grade3 = 3.5;
 
-// Validar que todas las notas esten 0 y 5
+// Validate that all grades are between 0 and 5
 if(
-    nota1 >= 0 && nota1 <= 5 &&
-    nota2 >= 0 && nota2 <= 5 &&
-    nota3 >= 0 && nota3 <= 5
+    grade1 >= 0 && grade1 <= 5 &&
+    grade2 >= 0 && grade2 <= 5 &&
+    grade3 >= 0 && grade3 <= 5
 ){
-    // Si todas son validad se calcula el promedio
-    let promedio = (nota1 + nota2 + nota3) / 3;
-    let promedioFormateado = promedio.toFixed(1);
-    console.log(`El promedio es: ${promedioFormateado}`);
-    let promedioRedondeado = Math.round(promedio);
-    console.log(`El promedio redondeado es: ${promedioRedondeado}`);
+    // If all are valid, the average is calculated
+    let average = (grade1 + grade2 + grade3) / 3;
+    let formattedAverage = average.toFixed(1);
+    console.log(`The average is: ${formattedAverage}`);
+    let roundedAverage = Math.round(average);
+    console.log(`The rounded average is: ${roundedAverage}`);
 
-    if(promedio >= 3.0){
-        console.log(`Aprobaste con el promedio: ${promedioFormateado}`);
+    if(average >= 3.0){
+        console.log(`You passed with an average grade: ${formattedAverage}`);
     }else{
-        console.log(`Con el promedio ${promedioFormateado} repruebas`);
+        console.log(`With an average grade of ${formattedAverage} you fail`);
     }
 }
 else{
-    // Si alguna nota no es valida
-    console.log("Todas las notas deben estar entre el rango 0 y 5. Revisa los valores.");
+    // If any grade is invalid
+    console.log("All grades must be between 0 and 5. Please check the values.");
 }
