@@ -8,4 +8,4 @@ Collection of mini-projects in JavaScript to practice logic and fundamentals.
 4. **ageCategory.js** – Program that defines a person's age, validates input, and classifies them into categories: Child, Teenager, Adult, or Senior.  
 
 ## Week 2  
-(Next projects will go here...)  
+5. **multiplicationTable.js** - Program that generates a multiplication table for a given number, using a for loop and basic input validation.
