@@ -9,3 +9,4 @@ Collection of mini-projects in JavaScript to practice logic and fundamentals.
 
 ## Week 2  
 5. **multiplicationTable.js** - Program that generates a multiplication table for a given number, using a for loop and basic input validation.
+6. **evenOddCounter.js** – Program that iterates through an array of numbers, validates values, counts how many are even and odd, and displays both groups separately.
